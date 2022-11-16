@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the User can search an item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86fdd576-30bf-41ad-a236-74c05e35365b</testCaseGuid>
+</TestCaseEntity>

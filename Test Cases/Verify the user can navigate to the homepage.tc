@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the user can navigate to the homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4be1ada5-e905-4f8d-b43f-05fecc288df5</testCaseGuid>
+</TestCaseEntity>

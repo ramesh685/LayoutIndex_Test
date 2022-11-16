@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify User can view the details of any clothing item from the gear secion and add them to the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78bfffe6-5952-42fb-b38b-0b6d70c1e17c</testCaseGuid>
+</TestCaseEntity>
