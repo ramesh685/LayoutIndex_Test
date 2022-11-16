@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LayOutIdex Test Suite1,Chrome 107.0.0.0,,,2022-11-15 14:45:15,2022-11-15 14:47:01,1m - 46.682s,FAILED
+,,,,,,,
+Test Cases/Verify the user can navigate to the homepage,Chrome 107.0.0.0,,,2022-11-15 14:45:15,2022-11-15 14:45:26,10.646s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-15 14:45:16,2022-11-15 14:45:19,3.166s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-15 14:45:19,2022-11-15 14:45:20,0.774s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-15 14:45:20,2022-11-15 14:45:21,1.419s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 107.0.0.0,,,2022-11-15 14:45:21,2022-11-15 14:45:25,4.012s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-15 14:45:25,2022-11-15 14:45:26,0.718s,PASSED
+,,,,,,,
+Test Cases/Verify the User can search an item,Chrome 107.0.0.0,,,2022-11-15 14:45:26,2022-11-15 14:45:38,11.807s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-15 14:45:26,2022-11-15 14:45:28,1.575s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 107.0.0.0,,,2022-11-15 14:45:28,2022-11-15 14:45:31,3.267s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home Page - Magento eCommerce - websit_802ae6/input_Search_q""), ""clothes"")",Chrome 107.0.0.0,,,2022-11-15 14:45:31,2022-11-15 14:45:34,2.784s,PASSED
+"click(findTestObject(""Object Repository/Page_Home Page - Magento eCommerce - websit_802ae6/button_Search""))",Chrome 107.0.0.0,,,2022-11-15 14:45:34,2022-11-15 14:45:37,2.896s,PASSED
+assert true,Chrome 107.0.0.0,,,2022-11-15 14:45:37,2022-11-15 14:45:37,0.004s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-15 14:45:37,2022-11-15 14:45:38,0.769s,PASSED
+,,,,,,,
+Test Cases/Verify user can serach results under women top section by category and colour,Chrome 107.0.0.0,,,2022-11-15 14:46:00,2022-11-15 14:46:15,14.635s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-15 14:46:00,2022-11-15 14:46:03,2.240s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 107.0.0.0,,,2022-11-15 14:46:03,2022-11-15 14:46:12,8.903s,PASSED
+"click(findTestObject(""Object Repository/Page_Home Page - Magento eCommerce - websit_802ae6/span_Jackets""))",Chrome 107.0.0.0,,,2022-11-15 14:46:12,2022-11-15 14:46:15,3.477s,FAILED
+,,,,,,,
+Test Cases/Verify User can view the details of any clothing item from the gear secion and add them to the cart,Chrome 107.0.0.0,,,2022-11-15 14:46:50,2022-11-15 14:47:01,11.085s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-15 14:46:50,2022-11-15 14:46:53,2.217s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 107.0.0.0,,,2022-11-15 14:46:53,2022-11-15 14:46:56,2.995s,PASSED
+"click(findTestObject(""Object Repository/Page_Home Page - Magento eCommerce - websit_802ae6/span_Gear""))",Chrome 107.0.0.0,,,2022-11-15 14:46:56,2022-11-15 14:46:59,3.197s,PASSED
+"click(findTestObject(""Object Repository/Page_Gear Magento Commerce - website to pra_95dd31/a_Bags""))",Chrome 107.0.0.0,,,2022-11-15 14:46:59,2022-11-15 14:47:00,1.659s,PASSED
+"click(findTestObject(""Object Repository/Page_Bags - Gear Magento Commerce - website_e73346/span_Add to Cart""))",Chrome 107.0.0.0,,,2022-11-15 14:47:00,2022-11-15 14:47:01,1.007s,FAILED
