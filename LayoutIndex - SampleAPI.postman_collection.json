@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "de8af1e1-d8e4-49c5-9516-6c159515a47e",
+		"name": "LayoutIndex - SampleAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18120435"
+	},
+	"item": [
+		{
+			"name": "Create Booking",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
